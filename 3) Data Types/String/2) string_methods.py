@@ -1,6 +1,6 @@
 
 # 1) To capitalize a string
-# some_string = "Python"
+# some_string = "python"
 # print(some_string.capitalize())
 
 
@@ -25,7 +25,7 @@
 
 # 5) Center align a string with a given length and character
 # some_string = "Python"
-# print(some_string.center(20, '-'))
+# print(some_string.center(50, '-'))
 
 
 
@@ -44,7 +44,7 @@ USAGE: string.encode()
 
 # 7) Check if the string ends with the given value or not
 # some_string = "Python is Awesome"
-# print(some_string.endswith('Awesomef'))
+# print(some_string.endswith('ehj'))
 
 
 
@@ -77,15 +77,15 @@ USAGE: string.encode()
 # 12) .find()
 # Find the first occurence of the specified value.
 # Returns -1 if the value is not found
-# some_string = "python is awesome"
-# print(some_string.find('y'))
+# some_string = "pythony is awesome"
+# print(some_string.find('R'))
 
 
 
 # 13) .index()
 # Same as .find(). Only difference is, raises an exception if the value not found
 # some_string = "python is awesome"
-# print(some_string.index('y'))
+# print(some_string.index('R'))
 
 
 
@@ -94,7 +94,7 @@ USAGE: string.encode()
 # Default deperator is SPACE
 
 # some_string = "python is awesome"
-# print(some_string.split())
+# print(some_string.split('n'))
 
 
 
@@ -128,7 +128,7 @@ USAGE: string.encode()
 # Join the given sequence items into a single string with given value
 
 # some_sequence = ["Python", "is", "Awesome"]
-# print("$".join(some_sequence))
+# print(" ".join(some_sequence))
 
 
 
@@ -143,7 +143,7 @@ USAGE: string.encode()
 # 20) .istitle()
 # Returns True if all words in a text start with a upper case letter, and the rest of the word are lower case letters, otherwise False.
 
-# some_string = "Python Is Awesome"
+# some_string = "Python is Awesome"
 # print(some_string.istitle())
 
 
@@ -171,7 +171,7 @@ USAGE: string.encode()
 # Returns True if all the characters are decimals (0-9). Only accepts decimals
 
 # some_digits = "12345"
-# print(some_string.isdecimal())
+# print(some_digits.isdecimal())
 
 
 
@@ -187,9 +187,8 @@ USAGE: string.encode()
 # 25) .isnumeric()
 # Similar to isdigit(). But unlke isdigit() and isdecimal(), this method accepts, Subscripts, Superscripts, Roman Numerals, and Currency Numerators
 
-# some_string = "Python is Awesome"
 # some_digits = "12345"
-# print(some_string.isdigit())
+# print(some_digits.isnumeric())
 
 
 

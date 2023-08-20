@@ -11,6 +11,7 @@ a multiline
 string
 """
 
+
 # OR
 
 about = '''
@@ -20,9 +21,9 @@ string
 '''
 
 
-# Strings are arrays
+# Strings are Arrays
 
-# a = "Hello, World!"
+a = "Hello, World"
 # print(a[1])
 
 # Negative indexing is also possible
@@ -30,20 +31,19 @@ string
 
 
 # Looping through a string
-# a = "Hello, World!"
+a = "Hello, World!"
 
 # for char in a:
 #     print(char)
 
 
 # To get the length of a string
-# length = len(a)
-# print(a)
+# print(len(a))
 
 
 # Check for a certain substring in a string
 # a = "Hello World"
-# print('e' in a)
+# print('E' in a)
 
 
 # Check if a certain substring does not exists
@@ -55,6 +55,7 @@ string
 # String Concatenation
 a = "Hello"
 b = "World"
-# print(a + b)
+
+print(a + b)
 
 
