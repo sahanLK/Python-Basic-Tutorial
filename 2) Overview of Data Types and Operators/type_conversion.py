@@ -18,7 +18,7 @@ int_string = int(num_string)
 # Convert int to a string
 int_num = 20
 str_num = str(int_num)
-print(type(int_num))
+print(type(str_num))
 
 
 
