@@ -1,6 +1,6 @@
 # Immutable data types does not allow you to change it's internal state and update the value.
 
-num = 7
+# num = 7
 # print(id(num))
 
 
@@ -11,8 +11,9 @@ num = 10
 # print(id(num))
 
 
-s = {10, 20, 30}
-print(id(s))
+# s = {10, 20, 30}
+# print(id(s))
 
-s.add(50)
-print(id(s))
+# s.add(50)
+# print(id(s))
+

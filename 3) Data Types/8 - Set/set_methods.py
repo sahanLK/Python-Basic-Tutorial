@@ -17,7 +17,7 @@ s = {10, 20, 30}
 
 
 # Copy a set (shallow copy)
-s2 = s.copy()
+# s2 = s.copy()
 
 
 
@@ -33,6 +33,9 @@ y = {"google", "microsoft", "apple"}
 
 
 # Removing the items that exists in both sets
+# Will not return a new set, instead modify the original set.
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
 # x.difference_update(y)
 # print(x)
 
@@ -43,7 +46,7 @@ y = {"google", "microsoft", "apple"}
 
 # Removing the specified element from the set.
 # Will not raise an error if the item is not found
-a = {10, 20, 30}
+# a = {10, 20, 30}
 # a.discard(10)
 # print(a)
 
@@ -102,6 +105,7 @@ y = {"a", "b", "c"}
 # Removes a random element from a set, and returns the removed element
 x = {"f", "e", "d", "c", "b", "a"}
 # print(x.pop())
+# print(x)
 
 
 
@@ -141,5 +145,5 @@ z = {10, 20, 50}
 # x = {"apple", "banana", "cherry"}
 # y = {"google", "microsoft", "apple"}
 
-# x.update(y)
-# print(x)
+x.update(y)
+print(x)

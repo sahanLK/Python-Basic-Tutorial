@@ -49,8 +49,8 @@ USAGE: string.encode()
 
 
 # 8) Check if the string startswith the given value
-# some_string = "Python is Awesome"
-# print(some_string.startswith('Python'))
+some_string = "Python is Awesome"
+print(some_string.startswith('Python'))
 
 
 

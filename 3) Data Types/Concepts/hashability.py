@@ -13,12 +13,10 @@ b = (10, 20, 30)
 
 
 # If Tuple objects contain unhashable objects, it will raise an error
-# c = (10, 20, 30, set())
+# c = (10, 20, 30)
 # print(c.__hash__())
 
 
 # But for a list, it can contain unhashable objects. But there will be no hash
-a_list = [10, 20, None]
+# a_list = [10, 20]
 # print(a_list.__hash__())  # Error
-
-
