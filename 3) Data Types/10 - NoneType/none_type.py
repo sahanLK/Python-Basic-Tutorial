@@ -8,8 +8,15 @@ BUT IN PYTHON, THINGS ARE DIFFERENT
 In Python, None keyword is used to define null objects and variables.
 """
 
-init = ''
+# init = ''
 # print(type(init))
+
+# a = None
+# print(type(a))
+
+
+# if a == None:
+#     print("Yes")
 
 
 # When checking for None, use "is" and "is not".
@@ -21,11 +28,10 @@ class MyClass:
     def __eq__(self, *args):
         return True
 
-
 obj = MyClass()
 
 # print(obj is None)  # Correct
 # print(obj == None)  # Faulty
 
 
-print([] is None)
+# print([] is None)

@@ -54,7 +54,7 @@ Zero
 
 
 # Check if a list is empty or not
-lst = []
+# lst = [10]
 
 # if lst:
 #     print("List is not empty")

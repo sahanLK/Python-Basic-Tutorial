@@ -225,8 +225,8 @@
 
 
 # Question 16
-values = [10, 20, 30, 40]
-x = 20
+# values = [10, 20, 30, 40]
+# x = 20
 
 # if x in values and x > 15:
 #     print("A")
@@ -261,8 +261,8 @@ x = 20
 
 
 # Question 19
-set1 = {1, 2, 3}
-set2 = {3, 4, 5}
+# set1 = {1, 2, 3}
+# set2 = {3, 4, 5}
 
 # if 1 in set1 or 4 in set2:
 #     print("X")
@@ -288,6 +288,7 @@ set2 = {3, 4, 5}
 
 # Question 21
 # sentence = "Python is fun"
+
 # if "Python" in sentence and not "Java" in sentence:
 #     print("A")
 # elif "is" in sentence or "fun" in sentence:
@@ -324,7 +325,7 @@ set2 = {3, 4, 5}
 
 
 # Question 24
-numbers = {1, 2, 3, 4}
+# numbers = {1, 2, 3, 4}
 
 # if 3 in numbers and not 5 in numbers:
 #     print("A")
@@ -357,6 +358,7 @@ numbers = {1, 2, 3, 4}
 #     print("Y")
 # else:
 #     print("Z")
+
 
 
 
@@ -476,3 +478,18 @@ numbers = {1, 2, 3, 4}
 #         print("C")
 # else:
 #     print("D")
+
+
+name = "Age is 012 ABS 89"
+
+# if [len(name) - 5] <= name[8]:
+#     print("A")
+
+#     if not 'a'.upper() in name and not name[-2::] < 100:
+#         print("B")
+#     elif name[0:3].lower() != 'Age'.lower():
+#         print("H")
+#     else:
+#         print("C")
+# else:
+#     print("N")

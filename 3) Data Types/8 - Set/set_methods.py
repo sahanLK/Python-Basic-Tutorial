@@ -88,10 +88,10 @@ c = {70, 80, 90,10, 200}
 
 
 # Check if a subset or not
-# x = {"a", "b", "c"}
-# y = {"f", "e", "d", "c", "b", "a"}
+x = {"a", "b", "c"}
+y = {"f", "e", "d", "c", "b", "a"}
 
-# print(x.issubset(y))
+print(x.issubset(y))
 
 
 x = {"f", "e", "d", "c", "b", "a"}
