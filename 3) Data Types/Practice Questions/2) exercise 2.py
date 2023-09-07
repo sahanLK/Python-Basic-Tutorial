@@ -204,7 +204,7 @@ is_leap = (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)
 
 
 
-# Question 19 - (Dictionary Unpacking)
+# # Question 19 - (Dictionary Unpacking)
 # dict1 = {'a': 1, 'b': 2}
 # dict2 = {'b': 3, 'c': 4}
 # merged_dict = {**dict1, **dict2}
@@ -221,7 +221,8 @@ is_leap = (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)
 
 # Question 20
 # user_roles = {'admin': 'Admin', 'user1': 'User', 'user2': 'User'}
-# username = 'admin'
+# username = 'Admin'
+
 # if username in user_roles:
 #     print(f"Role: {user_roles[username]}")
 # else:
@@ -236,8 +237,10 @@ is_leap = (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)
 # print(is_anagram)
 
 
+
 # Question 22
 # sentence = "This is a sample sentence."
+
 # word_count = len(sentence.split())
 # print(word_count)
 
@@ -246,6 +249,7 @@ is_leap = (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)
 # num1 = 15
 # num2 = 25
 # num3 = 10
+
 # largest = num1 if num1 > num2 and num1 > num3 else (num2 if num2 > num3 else num3)
 # print(largest)
 
